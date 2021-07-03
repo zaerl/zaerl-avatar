@@ -1,0 +1,104 @@
+# Translation of zaAvatar 0.1
+# Copyright (C) 2010 Francesco Bigiarini
+# This file is distributed under the same license as the WordPress package.
+# Francesco Bigiarini za@zaerl.com, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: zaAvatar 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-19 14:20+0100\n"
+"PO-Revision-Date: 2010-05-19 14:30+0100\n"
+"Last-Translator: Francesco Bigiarini <z@zaerl.com>\n"
+"Language-Team: zaerl <za@zaerl.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Translators: KB is the acronym of kilobye
+#: za-avatar-profile.php:14
+#, php-format
+msgid "Your avatar's filesize is too large. The maximum filesize allowed is %u KB. Please upload a smaller file."
+msgstr "La dimensione del file del tuo avatar è troppo grande. La dimensione massima è %u KB. Per favore carica un file più piccolo."
+
+#: za-avatar-profile.php:19
+msgid "The file you uploaded is not a valid image."
+msgstr "Il file che hai caricato non è un'immagine."
+
+#: za-avatar-profile.php:62
+msgid "Avatar uploaded successfully."
+msgstr "Avatar caricato con successo."
+
+#: za-avatar-profile.php:80
+msgid "Avatar deleted successfully."
+msgstr "Avatar cancellato con successo."
+
+#: za-avatar-profile.php:81
+msgid "You don't have an avatar!"
+msgstr "Non hai un avatar!"
+
+#: za-avatar-profile.php:103
+#, php-format
+msgid "Upload a new avatar. (%u KB maximum)"
+msgstr "Carica un nuovo avatar. (massimo %u KB)"
+
+#: za-avatar-profile.php:105
+msgid "Upload an avatar"
+msgstr "Carica un avatar"
+
+#: za-avatar-profile.php:118
+msgid "Delete Avatar &raquo;"
+msgstr "Cancella avatar &raquo;"
+
+#: za-avatar-profile.php:119
+msgid "Are you sure you want to delete your avatar?"
+msgstr "Sei sicuro di voler cancellare il tuo avatar?"
+
+#. Translators: %s is replaced by the program name
+#: za-avatar.php:72
+#, php-format
+msgid "%s Settings"
+msgstr "Impostazioni di %s"
+
+#. Translators: KB is the acronym of kilobye
+#: za-avatar.php:82
+msgid "Image Maximum Size"
+msgstr "Dimensione massima delle immagini"
+
+#: za-avatar.php:84
+msgid "Specify the maximum size, in kilobyte, of uploaded images."
+msgstr "Specifica la dimensione massima, in kilobyte, delle immagini caricate."
+
+#. Translators: KB is the acronym of kilobye
+#: za-avatar.php:89
+msgid "Thumbnail Size"
+msgstr "Dimensione delle anteprime"
+
+#: za-avatar.php:91
+msgid "Specify the thumbnail size."
+msgstr "Specifica la dimensione delle anteprime."
+
+#: za-avatar.php:98
+msgid "Save Changes"
+msgstr "Salva cambiamenti"
+
+#: za-avatar.php:181
+msgid "<strong>Settings saved.</strong>"
+msgstr "<strong>Impostazioni salvate.</strong>"
+
+#: za-avatar.php:198
+msgid "Avatar"
+msgstr "Avatar"
+
+#: za-avatar.php:276
+#, php-format
+msgid "za_avatar was unable to create the folders needed. Please create a folder called avatars in your forum root and set its permissions to 0777 (drwxrwxrwx). <a href=\"%s\">Click here when you have done this</a>."
+msgstr "za_avatar non è stato in grado di creare le cartelle necessarie. Per favore crea una cartella chiamata avatars nella cartella principale del tuo forum e imposta i permessi a 0777 (drwxrwxrwx). <a href=\"%s\">Clicca qui quando hai fatto</a>."
+
